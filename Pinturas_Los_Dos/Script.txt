@@ -1,0 +1,309 @@
+﻿create database ferr
+use ferr
+ 
+
+CREATE TABLE Caja
+  (
+    id_caja        smallint identity (1,1),
+    fecha          VARCHAR(15) ,
+    InicioEfectivo REAL ,
+    FinEfectivo    REAL ,
+    Nota           VARCHAR (150)
+  ) ;
+ALTER TABLE Caja ADD CONSTRAINT Caja_PK PRIMARY KEY ( id_caja ) ;
+
+
+CREATE TABLE Cliente
+  (
+    nit            VARCHAR (18) ,
+    nombre         VARCHAR (20) ,
+    apellido       VARCHAR (20) ,
+    id_cliente     smallint identity (1,1),
+    telefono       VARCHAR (15) ,
+    correo         VARCHAR (35) ,
+    limite_credito REAL
+  ) ;
+ALTER TABLE Cliente ADD CONSTRAINT Cliente_PK PRIMARY KEY ( id_cliente ) ;
+
+
+CREATE TABLE Empleado
+  (
+    id_empleado smallint identity (1,1),
+    Nombre      VARCHAR (50) ,
+    Dpi         VARCHAR(15) ,
+    FechaInicio VARCHAR(15) ,
+    FechaFin    VARCHAR(15) ,
+    Salario     REAL ,
+    telefono    VARCHAR(12) ,
+    correo      VARCHAR (35) ,
+    Activo      VARCHAR (1),
+    Comision    VARCHAR (5)
+  ) ;
+ALTER TABLE Empleado ADD CONSTRAINT Empleado_PK PRIMARY KEY ( id_empleado ) ;
+
+
+CREATE TABLE Gasto
+  (
+    id_gasto    smallint identity (1,1),
+    descripcion VARCHAR (50) ,
+    monto       REAL ,
+    fecha       VARCHAR (15) ,
+    id_usuario  SMALLINT
+  ) ;
+ALTER TABLE Gasto ADD CONSTRAINT Gasto_PK PRIMARY KEY ( id_gasto ) ;
+
+
+CREATE TABLE Medida
+  (
+    id_medida   smallint identity (1,1),
+    cantidad    REAL ,
+    descripcion VARCHAR (25)
+  ) ;
+ALTER TABLE Medida ADD CONSTRAINT Medida_PK PRIMARY KEY ( id_medida ) ;
+
+
+CREATE TABLE Presentacion
+  (
+    id_presentacion smallint identity (1,1),
+    precio_venta    REAL ,
+    precio_compra   REAL ,
+    id_producto     SMALLINT,
+    id_medida       SMALLINT
+  ) ;
+ALTER TABLE Presentacion ADD CONSTRAINT Presentacion_PK PRIMARY KEY ( id_presentacion ) ;
+
+
+CREATE TABLE Producto
+  (
+    id_producto smallint identity (1,1),
+    nombre      VARCHAR (25) ,
+    detalle     VARCHAR (50) ,
+    marca       VARCHAR (15) ,
+    existencias SMALLINT ,
+    id_tipo     SMALLINT,
+    id_unidad   SMALLINT
+  ) ;
+ALTER TABLE Producto ADD CONSTRAINT Producto_PK PRIMARY KEY ( id_producto ) ;
+
+
+CREATE TABLE Tipo
+  (
+    id_tipo        smallint identity (1,1),
+    nombre         VARCHAR (50) ,
+    existencias    REAL ,
+    CantidadAvisar REAL
+  ) ;
+ALTER TABLE Tipo ADD CONSTRAINT Tipo_PK PRIMARY KEY ( id_tipo ) ;
+
+
+CREATE TABLE Unidad
+  (
+    id_unidad smallint identity (1,1),
+    nombre    VARCHAR (25) ,
+    tasa      REAL
+  ) ;
+ALTER TABLE Unidad ADD CONSTRAINT Unidad_PK PRIMARY KEY ( id_unidad ) ;
+
+
+CREATE TABLE Usuario
+  (
+    id_usuario    smallint identity (1,1),
+    nombre        VARCHAR (20) ,
+    usuario       VARCHAR (15) ,
+    contraseña    VARCHAR (15) ,
+    administrador SMALLINT
+  ) ;
+ALTER TABLE Usuario ADD CONSTRAINT Usuario_PK PRIMARY KEY ( id_usuario ) ;
+
+
+CREATE TABLE Venta
+  (
+    id_venta       smallint identity (1,1),
+    fecha          VARCHAR (15) ,
+    total_venta    REAL ,
+    total_abonado  REAL ,
+    total_ganancia REAL ,
+    id_usuario     SMALLINT,
+    id_cliente     SMALLINT,
+    Descuento      REAL ,
+    id_empleado    SMALLINT,
+    fecha_credito  VARCHAR(15)  ,
+    Aumento        REAL,
+    Documento	   VARCHAR (20)
+  ) ;
+ALTER TABLE Venta ADD CONSTRAINT Venta_PK PRIMARY KEY ( id_venta ) ;
+
+
+CREATE TABLE detalle_venta
+  (
+    id_venta        SMALLINT,
+    id_presentacion SMALLINT
+  ) ;
+CREATE TABLE pago
+  (
+    id_pago        SMALLINT identity (1,1),
+	valor		   REAL,
+	fecha		   VARCHAR(15),
+    id_venta 	   SMALLINT
+  ) ;
+ALTER TABLE Pago ADD CONSTRAINT Pago_PK PRIMARY KEY ( id_pago ) ;  
+
+ALTER TABLE Gasto ADD CONSTRAINT Gasto_Usuario_FK FOREIGN KEY ( id_usuario ) REFERENCES Usuario ( id_usuario ) ;
+
+ALTER TABLE Presentacion ADD CONSTRAINT Presentacion_Medida_FK FOREIGN KEY ( id_medida ) REFERENCES Medida ( id_medida ) ;
+
+ALTER TABLE Presentacion ADD CONSTRAINT Presentacion_Producto_FK FOREIGN KEY ( id_producto ) REFERENCES Producto ( id_producto ) ;
+
+ALTER TABLE Producto ADD CONSTRAINT Producto_Unidad_FK FOREIGN KEY ( id_unidad ) REFERENCES Unidad ( id_unidad ) ;
+
+ALTER TABLE Venta ADD CONSTRAINT Venta_Cliente_FK FOREIGN KEY ( id_cliente ) REFERENCES Cliente ( id_cliente ) ;
+
+ALTER TABLE Venta ADD CONSTRAINT Venta_Empleado_FK FOREIGN KEY ( id_empleado ) REFERENCES Empleado ( id_empleado ) ;
+
+ALTER TABLE Venta ADD CONSTRAINT Venta_Usuario_FK FOREIGN KEY ( id_usuario ) REFERENCES Usuario ( id_usuario ) ;
+
+ALTER TABLE detalle_venta ADD CONSTRAINT detalle_venta_Presentacion_FK FOREIGN KEY ( id_presentacion ) REFERENCES Presentacion ( id_presentacion ) ;
+
+ALTER TABLE detalle_venta ADD CONSTRAINT detalle_venta_Venta_FK FOREIGN KEY ( id_venta ) REFERENCES Venta ( id_venta ) ;
+
+ALTER TABLE Producto ADD CONSTRAINT id_tipo FOREIGN KEY ( id_tipo ) REFERENCES Tipo ( id_tipo ) ;
+
+ALTER TABLE Pago ADD CONSTRAINT Pago_id_venta_FK FOREIGN KEY ( id_venta ) REFERENCES Venta ( id_venta ) ;
+
+insert into usuario values ('Sergio','Sergio','sergio19',1);
+insert into usuario values ('Administrador','admin','admin',1);
+insert into usuario values ('NoAdministrador','noadmin','noadmin',0);
+Data Source=SERGIO;Initial Catalog=PinturasLosDos;Integrated Security=True
+
+insert into unidad values ('Litro',3.785);
+insert into unidad values ('Galon',1);
+insert into unidad values ('Metro cubico',0.003785);
+insert into unidad values ('Pinta',8);
+insert into unidad values ('Cuarto Galon',4);
+insert into unidad values ('Otros',1);
+insert into tipo values ('Pintura',25.23,10);
+insert into tipo values ('Lijas',48,5);
+insert into tipo values ('Tiner',100,22);
+insert into medida values (0.25,'1/4');
+insert into medida values (0.125,'1/8');
+insert into medida values (0.0625,'1/16');
+insert into medida values (1,'1');
+insert into medida values (0.5,'1/2');
+insert into medida values (0.3125,'1/32');
+insert into medida values (0.015625,'1/64');
+insert into producto values ('Pintura blanca','p','Sega',0,1,1);
+insert into producto values ('Pintura Roja','p','Sega',0,1,2);
+insert into producto values ('Pintura Negra','p','Sega',0,1,3);
+insert into producto values ('Pintura Azul','p','Sega',0,1,4);
+insert into producto values ('Lija 3M','lija','TT',0,2,6);
+insert into producto values ('Lija 2M','lija','TT',0,2,6);
+insert into producto values ('Lija 4M','lija','TT',0,2,6);
+insert into producto values ('Tiner','Tiner','T',0,3,1);
+insert into gasto values ('Aceite de la moto',50.25,'01/01/2017',2);
+insert into gasto values ('Almuerzo ',25.50,'01/01/2017',3);
+insert into empleado values ('Carlos Slim','025415522','01/01/2017','',3500,'48782514','carlos@gmail.com','1');
+insert into empleado values ('Julio fernandez','052147822','01/01/2016','02/05/2016',3800,'48782594','julio@gmail.com','0');
+insert into empleado values ('Samuel Perez','894788522','01/01/2017','',3500,'48782578','samuel@gmail.com','1');
+insert into cliente values ('25525840','Sergio','de Leon','41438638','sergio31@gmail.com',0)
+insert into cliente values ('25526584','Taller','Pintura','41438638','sergio32@gmail.com',5000)
+insert into cliente values ('25528012','Angel','Mazariego','41438638','sergio33@gmail.com',0)
+insert into cliente values ('25527777','Jonathan','de Leon','41438638','sergio34@gmail.com',1200)
+insert into cliente values ('25524485','Maria','Izabel','41438638','sergio35@gmail.com',0)
+insert into presentacion values (5.25,3,1,1)
+insert into presentacion values (10,7,1,2)
+insert into presentacion values (25,20,1,3)
+insert into presentacion values (5.25,3,2,1)
+insert into presentacion values (10,7,2,2)
+insert into presentacion values (25,20,2,3)
+insert into presentacion values (5.25,3,3,1)
+insert into presentacion values (10,7,3,2)
+insert into presentacion values (25,20,3,3)
+insert into presentacion values (5.25,3,4,1)
+insert into presentacion values (10,7,4,2)
+insert into presentacion values (25,20,4,3)
+insert into presentacion values (8,3,5,4)
+insert into presentacion values (10,4,6,4)
+insert into presentacion values (28,12,7,4)
+insert into presentacion values (5.25,3,8,1)
+insert into presentacion values (10,7,8,2)
+insert into presentacion values (25,20,8,3)
+insert into venta values ('02/05/2016',500,500,250,1,1,0,1,'',25)
+insert into venta values ('02/05/2016',700,500,0,1,2,0,3,'15/05/2016',0)
+insert into venta values ('02/05/2016',800,200,0,1,3,0,1,'12/05/2016',25)
+insert into venta values ('02/05/2016',900,0,0,2,4,0,1,'01/06/2016',25)
+insert into venta values ('02/05/2016',400,400,250,2,5,25,1,'',25)
+insert into venta values ('02/05/2016',300,300,100,1,1,0,1,'',37)
+insert into venta values ('02/05/2016',1500,1500,0,2,2,0,3,'',20)
+insert into venta values ('02/05/2016',2500,2000,0,3,3,0,3,'02/06/2016',0)
+insert into venta values ('02/05/2016',7000,7000,4500,1,4,0,3,'',12)
+insert into venta values ('02/05/2016',784,500,0,3,5,0,3,'05/05/2016',50)
+insert into detalle_venta values (1,1)
+insert into detalle_venta values (1,3)
+insert into detalle_venta values (1,5)
+insert into detalle_venta values (1,7)
+insert into detalle_venta values (1,8)
+insert into detalle_venta values (2,1)
+insert into detalle_venta values (2,10)
+insert into detalle_venta values (3,8)
+insert into detalle_venta values (3,4)
+insert into detalle_venta values (4,2)
+insert into detalle_venta values (5,5)
+insert into detalle_venta values (6,7)
+insert into detalle_venta values (7,2)
+insert into detalle_venta values (8,17)
+insert into detalle_venta values (9,12)
+insert into detalle_venta values (10,5)
+insert into detalle_venta values (10,8)
+
+
+Una opcion para c/f o nit
+*c/f
+	-con nombre
+	-sin nombre
+*nit 
+	-se enlaza el nombre
+	-se agrega nuevo
+Una opcion para telefono, correo
+Una opcion para un descuento o aumento
+Una opcion para la fecha de credito	
+
+
+**************************************algunas consultas
+use ferr
+select * from caja where fecha='27/01/2017'
+select id_pago as 'No.Pago',fecha , valor, id_venta as 'No. Venta' from pago where fecha='27/01/2017'
+
+select * from tipo
+select * from venta
+select * from Producto
+select * from Presentacion
+select * from Medida
+select * from caja
+update Caja set fecha ='01/01/2017' where id_caja=5
+update Tipo set existencias=18 where id_tipo=2
+select descripcion,monto from gasto where fecha='01/01/2017'
+select * from tipo where existencias<= CantidadAvisar
+update Tipo set existencias = 8 where id_tipo=2 or id_tipo=4
+select v.id_venta,v.fecha,v.total_venta, v.total_abonado,c.nombre 'Cliente', c.Telefono, v.Descuento,v.fecha_credito, v.Aumento from venta v, Cliente c where fecha_credito <> '' and fecha_credito <> '---' and total_abonado < total_venta and v.id_cliente=c.id_cliente
+update Tipo set existencias=0 where id_tipo=3
+update Venta set fecha_credito='30/01/2017' where id_venta=20
+select * from caja
+select SUM(valor) as 'suma' from pago where fecha='27/01/2017'
+select SUM(monto) from Gasto where fecha='01/01/2017'
+select p.id_presentacion from Presentacion p, detalle_venta d, venta v where v.id_venta=d.id_venta and d.id_presentacion=p.id_presentacion and v.id_venta=1
+// la de las deudas
+select t.id_cliente,t.nombre,t.limite_credito,t.deuda from(
+select c.id_cliente,c.nombre,c.limite_credito, sum(v.total_venta-v.total_abonado) as 'Deuda'
+from Venta v, Cliente c
+where v.id_cliente=c.id_cliente
+and limite_credito > 0
+group by c.id_cliente,c.nombre,c.limite_credito)as t,Cliente as c where t.id_cliente=c.id_cliente and t.deuda+50 >= c.limite_credito and t.deuda>0
+
+//
+
+
+**
+notificaciones fecha credito ya vencido en fechas anteriores
+arreglar lo de insertar venta
+arreglar cagadales
+preparar

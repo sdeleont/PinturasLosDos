@@ -1,0 +1,137 @@
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\bin\Debug\Pinturas_Los_Dos.exe.config
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.exe
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.xml
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.pdb
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\bin\Debug\Pinturas_Los_Dos.exe.manifest
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\bin\Debug\Pinturas_Los_Dos.application
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\bin\Debug\Pinturas_Los_Dos.exe
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\bin\Debug\Pinturas_Los_Dos.pdb
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\bin\Debug\Pinturas_Los_Dos.xml
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\CarPaint.vbprojResolveAssemblyReference.cache
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.Buscar_codigo.resources
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.Clientes.resources
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.EmpleadoN.resources
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.Form1.resources
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.FormCaja.resources
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.FormCajaCierre.resources
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.FormEmpleados.resources
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.form_detalle.resources
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.form_existencias.resources
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.form_inventario.resources
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.form_gastos.resources
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.Form_principal.resources
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.form_productos.resources
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.form_productos_nuevo.resources
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.form_tipo.resources
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.form_usuarios.resources
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.form_ventas.resources
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.Galon_disponible.resources
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.Gastos.resources
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.GenCliente.resources
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.Resources.resources
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.Notificaciones.resources
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.OpcionesVenta.resources
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.Pago.resources
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.Seleccion_Medida.resources
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.VentanaPrincipal.resources
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.VerCaja.resources
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\CarPaint.vbproj.GenerateResource.Cache
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.exe.manifest
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.application
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.Form2.resources
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.Comision.resources
+C:\Users\Chejo\Desktop\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.OpReporte.resources
+C:\Users\Chejo\Desktop\USAC\Proyectos Negocios\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\bin\Debug\Pinturas_Los_Dos.exe.config
+C:\Users\Chejo\Desktop\USAC\Proyectos Negocios\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.exe
+C:\Users\Chejo\Desktop\USAC\Proyectos Negocios\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.xml
+C:\Users\Chejo\Desktop\USAC\Proyectos Negocios\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.pdb
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\bin\Debug\Pinturas_Los_Dos.exe.config
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.exe
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.xml
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Distribuidora Car Paint\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.pdb
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\bin\Debug\Pinturas_Los_Dos.exe.config
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.exe
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.xml
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.pdb
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\bin\Debug\Pinturas_Los_Dos.exe.manifest
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\bin\Debug\Pinturas_Los_Dos.application
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\bin\Debug\Pinturas_Los_Dos.exe
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\bin\Debug\Pinturas_Los_Dos.pdb
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\bin\Debug\Pinturas_Los_Dos.xml
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\CarPaint.vbprojResolveAssemblyReference.cache
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.Buscar_codigo.resources
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.Clientes.resources
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.Comision.resources
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.EmpleadoN.resources
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.Form1.resources
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.Form2.resources
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.FormCaja.resources
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.FormCajaCierre.resources
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.FormEmpleados.resources
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.form_detalle.resources
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.form_existencias.resources
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.form_inventario.resources
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.form_gastos.resources
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.Form_principal.resources
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.form_productos.resources
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.form_productos_nuevo.resources
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.form_tipo.resources
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.form_usuarios.resources
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.form_ventas.resources
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.Galon_disponible.resources
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.Gastos.resources
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.GenCliente.resources
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.Resources.resources
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.Notificaciones.resources
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.OpcionesVenta.resources
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.OpReporte.resources
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.Pago.resources
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.Seleccion_Medida.resources
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.VentanaPrincipal.resources
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.VerCaja.resources
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\CarPaint.vbproj.GenerateResource.Cache
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.exe.manifest
+C:\Users\Chejo\Desktop\Archivos\USAC\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.application
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\bin\Debug\Pinturas_Los_Dos.exe.config
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.exe
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.xml
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.pdb
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\bin\Debug\Pinturas_Los_Dos.exe.manifest
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\bin\Debug\Pinturas_Los_Dos.application
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\bin\Debug\Pinturas_Los_Dos.exe
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\bin\Debug\Pinturas_Los_Dos.pdb
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\bin\Debug\Pinturas_Los_Dos.xml
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\CarPaint.vbprojResolveAssemblyReference.cache
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.Buscar_codigo.resources
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.Clientes.resources
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.Comision.resources
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.EmpleadoN.resources
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.Form1.resources
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.Form2.resources
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.FormCaja.resources
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.FormCajaCierre.resources
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.FormEmpleados.resources
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.form_detalle.resources
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.form_existencias.resources
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.form_inventario.resources
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.form_gastos.resources
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.Form_principal.resources
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.form_productos.resources
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.form_productos_nuevo.resources
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.form_tipo.resources
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.form_usuarios.resources
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.form_ventas.resources
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.Galon_disponible.resources
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.Gastos.resources
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.GenCliente.resources
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.Resources.resources
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.Notificaciones.resources
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.OpcionesVenta.resources
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.OpReporte.resources
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.Pago.resources
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.Seleccion_Medida.resources
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.VentanaPrincipal.resources
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.VerCaja.resources
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\CarPaint.vbproj.GenerateResource.Cache
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.exe.manifest
+C:\Users\Chejo\Desktop\Proyectos!\Proyectos Negocios\Pinturas Los Dos\Pinturas_Los_Dos\Pinturas_Los_Dos\obj\Debug\Pinturas_Los_Dos.application

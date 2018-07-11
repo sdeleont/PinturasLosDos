@@ -1,0 +1,630 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0A5C9AA9-B6AB-4745-9A9B-FA551582E01F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Pinturas_Los_Dos.My.MyApplication</StartupObject>
+    <RootNamespace>Pinturas_Los_Dos</RootNamespace>
+    <AssemblyName>Pinturas_Los_Dos</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\PinturasLosDosMayo2018\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>42</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Pinturas_Los_Dos.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Pinturas_Los_Dos.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>68336CB0A417AAAB0438E87079743E47EBCC132F</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Pinturas_Los_Dos_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\..\Downloads\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Buscar_codigo.Designer.vb">
+      <DependentUpon>Buscar_codigo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Buscar_codigo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes.Designer.vb">
+      <DependentUpon>Clientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comision.Designer.vb">
+      <DependentUpon>Comision.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Comision.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="conexion.vb" />
+    <Compile Include="DatosReporte.vb" />
+    <Compile Include="EmpleadoN.Designer.vb">
+      <DependentUpon>EmpleadoN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EmpleadoN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ferreteriaDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ferreteriaDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ferreteriaDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ferreteriaDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ferreteriaDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ferreteriaDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ferreteriaDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ferreteriaDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ferreteriaDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ferreteriaDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCaja.Designer.vb">
+      <DependentUpon>FormCaja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormCaja.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCajaCierre.Designer.vb">
+      <DependentUpon>FormCajaCierre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormCajaCierre.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEmpleados.Designer.vb">
+      <DependentUpon>FormEmpleados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormEmpleados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_detalle.Designer.vb">
+      <DependentUpon>form_detalle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_detalle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_existencias.Designer.vb">
+      <DependentUpon>form_existencias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_existencias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_inventario.Designer.vb">
+      <DependentUpon>form_inventario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_inventario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_medidas.Designer.vb">
+      <DependentUpon>form_medidas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_medidas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_principal.Designer.vb">
+      <DependentUpon>Form_principal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_principal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_productos.Designer.vb">
+      <DependentUpon>form_productos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_productos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_productos_nuevo.Designer.vb">
+      <DependentUpon>form_productos_nuevo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_productos_nuevo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_tipo.Designer.vb">
+      <DependentUpon>form_tipo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_tipo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_usuarios.Designer.vb">
+      <DependentUpon>form_usuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_usuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_ventas.Designer.vb">
+      <DependentUpon>form_ventas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_ventas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Galon_disponible.Designer.vb">
+      <DependentUpon>Galon_disponible.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Galon_disponible.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gastos.Designer.vb">
+      <DependentUpon>Gastos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gastos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenCliente.Designer.vb">
+      <DependentUpon>GenCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GenCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListTemp.vb" />
+    <Compile Include="medida.vb" />
+    <Compile Include="Medidas.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Notificacion.vb" />
+    <Compile Include="Notificaciones.Designer.vb">
+      <DependentUpon>Notificaciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Notificaciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpcionesVenta.Designer.vb">
+      <DependentUpon>OpcionesVenta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OpcionesVenta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpReporte.Designer.vb">
+      <DependentUpon>OpReporte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OpReporte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pago.Designer.vb">
+      <DependentUpon>Pago.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pago.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="producto.vb" />
+    <Compile Include="Seleccion_Medida.Designer.vb">
+      <DependentUpon>Seleccion_Medida.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seleccion_Medida.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaPrincipal.Designer.vb">
+      <DependentUpon>VentanaPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerCaja.Designer.vb">
+      <DependentUpon>VerCaja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VerCaja.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Buscar_codigo.resx">
+      <DependentUpon>Buscar_codigo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clientes.resx">
+      <DependentUpon>Clientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comision.resx">
+      <DependentUpon>Comision.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmpleadoN.resx">
+      <DependentUpon>EmpleadoN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCaja.resx">
+      <DependentUpon>FormCaja.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCajaCierre.resx">
+      <DependentUpon>FormCajaCierre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEmpleados.resx">
+      <DependentUpon>FormEmpleados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_detalle.resx">
+      <DependentUpon>form_detalle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_existencias.resx">
+      <DependentUpon>form_existencias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_inventario.resx">
+      <DependentUpon>form_inventario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_medidas.resx">
+      <DependentUpon>form_medidas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_principal.resx">
+      <DependentUpon>Form_principal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_productos.resx">
+      <DependentUpon>form_productos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_productos_nuevo.resx">
+      <DependentUpon>form_productos_nuevo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_tipo.resx">
+      <DependentUpon>form_tipo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_usuarios.resx">
+      <DependentUpon>form_usuarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_ventas.resx">
+      <DependentUpon>form_ventas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Galon_disponible.resx">
+      <DependentUpon>Galon_disponible.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gastos.resx">
+      <DependentUpon>Gastos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenCliente.resx">
+      <DependentUpon>GenCliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notificaciones.resx">
+      <DependentUpon>Notificaciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpcionesVenta.resx">
+      <DependentUpon>OpcionesVenta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpReporte.resx">
+      <DependentUpon>OpReporte.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pago.resx">
+      <DependentUpon>Pago.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seleccion_Medida.resx">
+      <DependentUpon>Seleccion_Medida.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaPrincipal.resx">
+      <DependentUpon>VentanaPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerCaja.resx">
+      <DependentUpon>VerCaja.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ferreteriaDataSet.xsc">
+      <DependentUpon>ferreteriaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ferreteriaDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ferreteriaDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ferreteriaDataSet.xss">
+      <DependentUpon>ferreteriaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ferreteriaDataSet1.xsc">
+      <DependentUpon>ferreteriaDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ferreteriaDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ferreteriaDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ferreteriaDataSet1.xss">
+      <DependentUpon>ferreteriaDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ferreteriaDataSet2.xsc">
+      <DependentUpon>ferreteriaDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="ferreteriaDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ferreteriaDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ferreteriaDataSet2.xss">
+      <DependentUpon>ferreteriaDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="ferreteriaDataSet3.xsc">
+      <DependentUpon>ferreteriaDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="ferreteriaDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ferreteriaDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ferreteriaDataSet3.xss">
+      <DependentUpon>ferreteriaDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="ferreteriaDataSet4.xsc">
+      <DependentUpon>ferreteriaDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="ferreteriaDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ferreteriaDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ferreteriaDataSet4.xss">
+      <DependentUpon>ferreteriaDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pinturas_Los_Dos_TemporaryKey.pfx" />
+    <None Include="Resources\account_balances.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bin_empty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table_refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table_refresh1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_as.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paintcan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paintcan_delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accept.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money_delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar_link.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accept1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cooltext1818985681 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cooltext1818985681 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cooltext1818981529.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimalistic-white-fog-silver-digital-art-white-background-HD-Wallpapers.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\great-wallpaper-silver.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table_money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_extension_pdf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_extension_pdf1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house_two.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

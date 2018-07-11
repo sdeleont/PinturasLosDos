@@ -1,0 +1,1 @@
+Server=tcp:serverbdpinturas.database.windows.net,1433;Initial Catalog=AutoPinturasBDA;Persist Security Info=False;User ID=PinturasBD;Password=Sergio19*;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;

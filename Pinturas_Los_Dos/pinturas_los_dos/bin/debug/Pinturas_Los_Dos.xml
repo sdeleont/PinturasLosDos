@@ -1,0 +1,436 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Pinturas_Los_Dos
+</name>
+</assembly>
+<members>
+<member name="T:Pinturas_Los_Dos.ferreteriaDataSet3.MedidaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSet3.MedidaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSet3.MedidaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSet3TableAdapters.MedidaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pinturas_Los_Dos.ferreteriaDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pinturas_Los_Dos.ferreteriaDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pinturas_Los_Dos.ferreteriaDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(Pinturas_Los_Dos.ferreteriaDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pinturas_Los_Dos.ferreteriaDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(Pinturas_Los_Dos.ferreteriaDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pinturas_Los_Dos.ferreteriaDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pinturas_Los_Dos.ferreteriaDataSet3TableAdapters.TableAdapterManager.UpdateAll(Pinturas_Los_Dos.ferreteriaDataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSet2.TipoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSet2.TipoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSet2.TipoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSet2TableAdapters.TipoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pinturas_Los_Dos.ferreteriaDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pinturas_Los_Dos.ferreteriaDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pinturas_Los_Dos.ferreteriaDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(Pinturas_Los_Dos.ferreteriaDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pinturas_Los_Dos.ferreteriaDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(Pinturas_Los_Dos.ferreteriaDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pinturas_Los_Dos.ferreteriaDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pinturas_Los_Dos.ferreteriaDataSet2TableAdapters.TableAdapterManager.UpdateAll(Pinturas_Los_Dos.ferreteriaDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSet.unidadDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSet.unidadRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSet.unidadRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSetTableAdapters.unidadTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pinturas_Los_Dos.ferreteriaDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Pinturas_Los_Dos.ferreteriaDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pinturas_Los_Dos.ferreteriaDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Pinturas_Los_Dos.ferreteriaDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pinturas_Los_Dos.ferreteriaDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Pinturas_Los_Dos.ferreteriaDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pinturas_Los_Dos.ferreteriaDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pinturas_Los_Dos.ferreteriaDataSetTableAdapters.TableAdapterManager.UpdateAll(Pinturas_Los_Dos.ferreteriaDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSet1.MedidaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSet1.MedidaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSet1.MedidaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSet1TableAdapters.MedidaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pinturas_Los_Dos.ferreteriaDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pinturas_Los_Dos.ferreteriaDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pinturas_Los_Dos.ferreteriaDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Pinturas_Los_Dos.ferreteriaDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pinturas_Los_Dos.ferreteriaDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Pinturas_Los_Dos.ferreteriaDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pinturas_Los_Dos.ferreteriaDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pinturas_Los_Dos.ferreteriaDataSet1TableAdapters.TableAdapterManager.UpdateAll(Pinturas_Los_Dos.ferreteriaDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSet4.unidadDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSet4.unidadRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSet4.unidadRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSet4">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSet4TableAdapters.unidadTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Pinturas_Los_Dos.ferreteriaDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(Pinturas_Los_Dos.ferreteriaDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Pinturas_Los_Dos.ferreteriaDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(Pinturas_Los_Dos.ferreteriaDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Pinturas_Los_Dos.ferreteriaDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(Pinturas_Los_Dos.ferreteriaDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Pinturas_Los_Dos.ferreteriaDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Pinturas_Los_Dos.ferreteriaDataSet4TableAdapters.TableAdapterManager.UpdateAll(Pinturas_Los_Dos.ferreteriaDataSet4)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Pinturas_Los_Dos.ferreteriaDataSet4TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.accept">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.accept1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.account_balances">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.bin">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.bin_empty">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.calendar_link">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.cancel">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.cancel1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.cooltext1818981529">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.cooltext1818985681__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.cooltext1818985681__1_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.file_extension_pdf">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.file_extension_pdf1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.fondo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.fondo1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.fondo2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.fondo3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.fondo4">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.great_wallpaper_silver">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.house_two">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.key">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.minimalistic_white_fog_silver_digital_art_white_background_HD_Wallpapers">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.money">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.money_add">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.money_delete">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.paintcan">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.paintcan_delete">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.s">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.save_as">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.save_money">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.search_plus">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.table_money">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.table_refresh">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.table_refresh1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.update">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.user_add">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.user_delete">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Pinturas_Los_Dos.My.Resources.Resources.user_green">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Pinturas_Los_Dos.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
